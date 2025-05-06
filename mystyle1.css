@@ -1,0 +1,88 @@
+body {
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card {
+    background-color: #fddde6;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid;
+  }
+  
+  .top-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .info h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .info h2 {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: blue;
+  }
+  
+  .section {
+    margin-bottom: 25px;
+    border-top: 1px solid #999;
+    padding-top: 15px;
+  }
+  
+  .section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 10px;
+  }
+  
+  .item span {
+    white-space: nowrap;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    border-top: 1px solid #999;
+    margin-top: 30px;
+    padding-top: 15px;
+  }
+  
+  .sns-icons {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  
+  .footer .copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: #333;
+    margin: 0;
+  }
+  
